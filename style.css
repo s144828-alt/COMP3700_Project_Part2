@@ -10,21 +10,33 @@ header{
 }
 
 
-nav ul{
+.container {
+    display: flex;            
+    justify-content: center; 
+    align-items: center;      
+    flex-direction: column;   
+    height: 100vh;            
+}
+
+.nav-right {
+    margin-left: auto; 
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+
+nav ul {
     display: flex;
     list-style-type: none;
     gap: 2rem;
     margin: 10pt;
-    margin-left: 5cm;
+    margin-left: 5cm; 
     padding: 0;
-    display: flex;
-    font-size: 15pt;
-    
-
-
-    
+    font-size: 15pt;    
+    justify-content: flex-end; 
+    width: calc(100% - 5cm - 20pt); 
 }
-
 hr{
     color: #2b547e;
     opacity: 0.5;
