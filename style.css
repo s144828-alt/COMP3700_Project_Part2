@@ -9,7 +9,6 @@ header{
     height: 150px;
 }
 
-
 .container {
     display: flex;            
     justify-content: center; 
@@ -37,6 +36,7 @@ nav ul {
     justify-content: flex-end; 
     width: calc(100% - 5cm - 20pt); 
 }
+
 hr{
     color: #2b547e;
     opacity: 0.5;
