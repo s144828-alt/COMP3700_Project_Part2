@@ -72,6 +72,12 @@ i{
     padding:1rem;
 }
 
+.active {
+    background-color: #512d6d; /* لون سكن ستور البنفسجي */
+    color: white !important;
+    border-radius: 5px;
+    font-weight: bold;
+}
 
 
 
