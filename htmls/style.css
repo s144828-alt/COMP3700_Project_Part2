@@ -78,6 +78,42 @@ i{
     border-radius: 5px;
     font-weight: bold;
 }
+  /* 1. Element Selector */
+h1 {
+    color: #2c3e50;
+}
 
+/* 2. ID Selector */
+#main-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* 3. Class Selector */
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* 4. Universal Selector */
+* {
+    box-sizing: border-box;
+}
+
+/* 5. Descendant Selector */
+nav ul li a {
+    padding: 5px;
+}
+
+/* 6. Pseudo-class Selector */
+a:hover {
+    color: #F39237;
+}
+
+/* 7. Grouping Selector */
+h1, h2, h3 {
+    font-family: 'Kanit', sans-serif;
+}
 
 
