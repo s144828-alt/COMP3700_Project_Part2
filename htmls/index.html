@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,422 +11,62 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sakan Store</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-        }
-        .tables-section {
-            margin-top: 4rem;
-            margin-bottom: 4rem;
-        }
-        .table-title {
-            font-size: 1.8rem;
-            font-weight: bold;
-            color: #2c3e50;
-            margin-bottom: 2rem;
-            border-bottom: 3px solid #e74c3c;
-            padding-bottom: 1rem;
-        }
-        .table-container {
-            background-color: white;
-            border-radius: 10px;
-            padding: 2rem;
-            margin-bottom: 3rem;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-        .table {
-            margin-bottom: 0;
-        }
-        .table thead th {
-            background-color: #34495e;
-            color: white;
-            font-weight: 600;
-            border: none;
-            padding: 1rem;
-        }
-        .table tbody td {
-            padding: 1rem;
-            border-color: #ecf0f1;
-        }
-        .table tbody tr:hover {
-            background-color: #f8f9fa;
-            transition: 0.3s;
-        }
-        .badge-category {
-            background-color: #3498db;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            color: white;
-            font-size: 0.85rem;
-        }
-        .badge-offer {
-            background-color: #e74c3c;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            color: white;
-            font-size: 0.85rem;
-        }
-        .services-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 20px;
-        }
+    <title>Home</title>
 
-        .services-table th,
-        .services-table td {
-        border: 1px solid #ccc;
-        padding: 10px;
-        text-align: center;
-        }
+    
+    
 
-        .services-table th {
-        background-color: #2f6fad;
-        color: white;
-        }
-
-        .services-table tr:nth-child(even) {
-        background-color: #f5f5f5;
-        }
-        .badge-delivery {
-            background-color: #27ae60;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            color: white;
-            font-size: 0.85rem;
-        }
-        .price {
-            font-weight: bold;
-            color: #e74c3c;
-            font-size: 1.1rem;
-        }
-        .icon-cell {
-            font-size: 1.5rem;
-            text-align: center;
-        }
-    </style>
-
+    
 </head>
 <body>
     <header>
-        <img style="width: 70pt; padding: 0; float: left; margin:1rem ;" src="../images/SQUlogo.png" alt="SQU logo">
-        <br>
-        <br>
-        
-       <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="services.html">Service</a></li>
-        <li><a href="orders.html">Orders</a></li>
-        <li><a href="categories.html">Categories</a></li>
-        <li class="nav-right"><a href="index.html" style="font-size: 25pt; font-weight: bold;">سكن ستور🏠</a></li>
-    </ul>
-           
-        </nav>        
-        <div style="text-align: center;">
-            <img style="width: 400px; border-radius: 50%;" class="logo" src="../images/SKimg.png" alt="sakanStore logo"> 
-        </div>
-    
+
+        <!------------------------------------------------------------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #512d6d;">
+    <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="../images/SQUlogo.png" alt="SQU Logo" width="70pt"  class="d-inline-block align-text-top me-2">
+        <span class="fw-bold">سكن ستور🏠</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="orders.html">Orders</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="categories.html">Categories</a>
+        </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+<!------------------------------------------------------------------------------------------------------------------------->
     </header>
 
-    <!-- ========== جدول المنتجات والفئات ========== -->
-    <div class="container tables-section">
-        <div class="table-container">
-            <h3 class="table-title"><i class="bi bi-box-seam"></i> المنتجات والفئات المتوفرة</h3>
-            <div class="table-responsive">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th><i class="bi bi-hash"></i> رقم المنتج</th>
-                            <th><i class="bi bi-bag"></i> اسم المنتج</th>
-                            <th><i class="bi bi-tag"></i> الفئة</th>
-                            <th><i class="bi bi-currency-dollar"></i> السعر (ر.ع)</th>
-                            <th><i class="bi bi-boxes"></i> الكمية المتاحة</th>
-                            <th><i class="bi bi-info-circle"></i> الحالة</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>#001</strong></td>
-                            <td>وسادة مريحة عالية الجودة</td>
-                            <td><span class="badge-category">غرفة نوم</span></td>
-                            <td class="price">15.99 ر.ع</td>
-                            <td><strong>45</strong></td>
-                            <td><span style="color: #27ae60; font-weight: bold;"><i class="bi bi-check-circle"></i> متوفر</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>#002</strong></td>
-                            <td>شرشف سرير قطن 100%</td>
-                            <td><span class="badge-category">غرفة نوم</span></td>
-                            <td class="price">24.50 ر.ع</td>
-                            <td><strong>38</strong></td>
-                            <td><span style="color: #27ae60; font-weight: bold;"><i class="bi bi-check-circle"></i> متوفر</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>#003</strong></td>
-                            <td>مصباح كهربائي LED ذكي</td>
-                            <td><span class="badge-category">إضاءة</span></td>
-                            <td class="price">32.99 ر.ع</td>
-                            <td><strong>22</strong></td>
-                            <td><span style="color: #27ae60; font-weight: bold;"><i class="bi bi-check-circle"></i> متوفر</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>#004</strong></td>
-                            <td>ثلاجة صغيرة للسكن</td>
-                            <td><span class="badge-category">مطبخ</span></td>
-                            <td class="price">89.99 ر.ع</td>
-                            <td><strong>12</strong></td>
-                            <td><span style="color: #27ae60; font-weight: bold;"><i class="bi bi-check-circle"></i> متوفر</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>#005</strong></td>
-                            <td>سجادة غرفة فاخرة</td>
-                            <td><span class="badge-category">ديكور</span></td>
-                            <td class="price">45.00 ر.ع</td>
-                            <td><strong>18</strong></td>
-                            <td><span style="color: #27ae60; font-weight: bold;"><i class="bi bi-check-circle"></i> متوفر</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>#006</strong></td>
-                            <td>مروحة سقف قوية</td>
-                            <td><span class="badge-category">تهوية</span></td>
-                            <td class="price">55.00 ر.ع</td>
-                            <td><strong>8</strong></td>
-                            <td><span style="color: #e74c3c; font-weight: bold;"><i class="bi bi-exclamation-triangle"></i> كمية قليلة</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>#007</strong></td>
-                            <td>رفوف معدنية قوية</td>
-                            <td><span class="badge-category">تخزين</span></td>
-                            <td class="price">120.00 ر.ع</td>
-                            <td><strong>5</strong></td>
-                            <td><span style="color: #e74c3c; font-weight: bold;"><i class="bi bi-exclamation-triangle"></i> كمية قليلة</span></td>
-                        </tr>
-                        <tr>
-                            <td><strong>#008</strong></td>
-                            <td>طاولة مكتب مريحة</td>
-                            <td><span class="badge-category">دراسة</span></td>
-                            <td class="price">75.50 ر.ع</td>
-                            <td><strong>0</strong></td>
-                            <td><span style="color: #c0392b; font-weight: bold;"><i class="bi bi-x-circle"></i> غير متوفر</span></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+<div style="text-align: center;">
+            <img style="width: 400px; border-radius: 50%;" class="logo" src="../images/SKimg.png" alt="sakanStore logo"> 
         </div>
-    </div>
-
-    <!-- ========== جدول عروض وباقات الطلبة ========== -->
-    <div class="container tables-section">
-        <div class="table-container">
-            <h3 class="table-title"><i class="bi bi-gift"></i> عروض وباقات خاصة للطلاب</h3>
-            <div class="table-responsive">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th><i class="bi bi-box"></i> اسم الباقة</th>
-                            <th><i class="bi bi-list-ul"></i> محتويات الباقة</th>
-                            <th><i class="bi bi-percent"></i> نسبة الخصم</th>
-                            <th><i class="bi bi-currency-dollar"></i> السعر الأصلي</th>
-                            <th><i class="bi bi-tag-fill"></i> السعر بعد الخصم</th>
-                            <th><i class="bi bi-calendar-event"></i> الفترة الزمنية</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><span class="badge-offer">باقة البدايات</span></td>
-                            <td>وسادة + شرشف + مصباح LED</td>
-                            <td><strong style="color: #e74c3c;">15%</strong></td>
-                            <td><strike>73.48 ر.ع</strike></td>
-                            <td class="price">62.46 ر.ع</td>
-                            <td>مارس 2026</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge-offer">باقة الراحة</span></td>
-                            <td>وسادة + شرشف + سجادة + مروحة</td>
-                            <td><strong style="color: #e74c3c;">20%</strong></td>
-                            <td><strike>139.99 ر.ع</strike></td>
-                            <td class="price">111.99 ر.ع</td>
-                            <td>مارس - أبريل 2026</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge-offer">باقة المجتهد</span></td>
-                            <td>طاولة مكتب + مصباح + رفوف + كرسي</td>
-                            <td><strong style="color: #e74c3c;">25%</strong></td>
-                            <td><strike>283.49 ر.ع</strike></td>
-                            <td class="price">212.62 ر.ع</td>
-                            <td>حتى نهاية مارس</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge-offer">باقة السكن الكامل</span></td>
-                            <td>جميع المنتجات الأساسية 9 منتجات</td>
-                            <td><strong style="color: #e74c3c;">30%</strong></td>
-                            <td><strike>500.00 ر.ع</strike></td>
-                            <td class="price">350.00 ر.ع</td>
-                            <td>عرض محدود</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge-offer">عرض الطالب الذهبي</span></td>
-                            <td>أي 3 منتجات مختلفة من المتجر</td>
-                            <td><strong style="color: #e74c3c;">18%</strong></td>
-                            <td>حسب الاختيار</td>
-                            <td class="price">خصم 18%</td>
-                            <td>طوال السنة</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    <!-- ========== جدول الخدمات ========== -->
+        
     
-    <h2>الخدمات المقدمة للطلاب</h2>
-
-<table class="services-table">
-  <thead>
-    <tr>
-      <th>الخدمة</th>
-      <th>الوصف</th>
-      <th>الأيقونة</th>
-      <th>التفاصيل</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>خدمة 1</td>
-      <td>وصف الخدمة 1</td>
-      <td><i class="icon1"></i></td>
-      <td><a href="details1.html">تفاصيل</a></td>
-    </tr>
-
-    <tr>
-      <td>خدمة 2</td>
-      <td>وصف الخدمة 2</td>
-      <td><i class="icon2"></i></td>
-      <td><a href="details2.html">تفاصيل</a></td>
-    </tr>
-
-    <tr>
-      <td>خدمة 3</td>
-      <td>وصف الخدمة 3</td>
-      <td><i class="icon3"></i></td>
-      <td><a href="details3.html">تفاصيل</a></td>
-    </tr>
-
-    <tr>
-      <td>خدمة 4</td>
-      <td>وصف الخدمة 4</td>
-      <td><i class="icon4"></i></td>
-      <td><a href="details4.html">تفاصيل</a></td>
-    </tr>
-
-    <tr>
-      <td>خدمة 5</td>
-      <td>وصف الخدمة 5</td>
-      <td><i class="icon5"></i></td>
-      <td><a href="details5.html">تفاصيل</a></td>
-    </tr>
-
-    <tr>
-      <td>خدمة 6</td>
-      <td>وصف الخدمة 6</td>
-      <td><i class="icon6"></i></td>
-      <td><a href="details6.html">تفاصيل</a></td>
-    </tr>
-
-    <tr>
-      <td>خدمة 7</td>
-      <td>وصف الخدمة 7</td>
-      <td><i class="icon7"></i></td>
-      <td><a href="details7.html">تفاصيل</a></td>
-    </tr>
-
-    <tr>
-      <td>خدمة 8</td>
-      <td>وصف الخدمة 8</td>
-      <td><i class="icon8"></i></td>
-      <td><a href="details8.html">تفاصيل</a></td>
-    </tr>
-  </tbody>
-</table>
-
-    <!-- ========== جدول طرق الدفع والتوصيل ========== -->
-    <div class="container tables-section">
-        <div class="table-container">
-            <h3 class="table-title"><i class="bi bi-truck"></i> طرق الدفع والتوصيل حسب المنطقة</h3>
-            <div class="table-responsive">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th><i class="bi bi-geo-alt"></i> المنطقة</th>
-                            <th><i class="bi bi-wallet2"></i> طرق الدفع المتاحة</th>
-                            <th><i class="bi bi-clock-history"></i> وقت التوصيل</th>
-                            <th><i class="bi bi-currency-dollar"></i> رسوم التوصيل</th>
-                            <th><i class="bi bi-info-circle"></i> ملاحظات</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><span class="badge-delivery"><i class="bi bi-pin-map-fill"></i> مسقط (المركز)</span></td>
-                            <td>💳 بطاقة ائتمان | 💰 دفع عند الاستلام | 🏦 تحويل بنكي</td>
-                            <td><strong>1-2 يوم</strong></td>
-                            <td><strong style="color: #27ae60;">مجاني</strong></td>
-                            <td>توصيل سريع ومضمون</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge-delivery"><i class="bi bi-pin-map-fill"></i> الحيل والقرم</span></td>
-                            <td>💳 بطاقة ائتمان | 💰 دفع عند الاستلام</td>
-                            <td><strong>2-3 أيام</strong></td>
-                            <td><strong style="color: #e74c3c;">2.50 ر.ع</strong></td>
-                            <td>توصيل منتظم</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge-delivery"><i class="bi bi-pin-map-fill"></i> ولايات الشرقية</span></td>
-                            <td>💳 بطاقة ائتمان | 🏦 تحويل بنكي</td>
-                            <td><strong>3-5 أيام</strong></td>
-                            <td><strong style="color: #e74c3c;">5.00 ر.ع</strong></td>
-                            <td>توصيل آمن</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge-delivery"><i class="bi bi-pin-map-fill"></i> ولايات الداخلية</span></td>
-                            <td>💳 بطاقة ائتمان | 💰 دفع عند الاستلام</td>
-                            <td><strong>4-6 أيام</strong></td>
-                            <td><strong style="color: #e74c3c;">7.50 ر.ع</strong></td>
-                            <td>يتطلب تأكيد</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge-delivery"><i class="bi bi-pin-map-fill"></i> محافظة ظفار</span></td>
-                            <td>💳 بطاقة ائتمان | 🏦 تحويل بنكي</td>
-                            <td><strong>5-7 أيام</strong></td>
-                            <td><strong style="color: #e74c3c;">10.00 ر.ع</strong></td>
-                            <td>توصيل محدود</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge-delivery"><i class="bi bi-pin-map-fill"></i> محافظة مسندم</span></td>
-                            <td>🏦 تحويل بنكي فقط</td>
-                            <td><strong>6-8 أيام</strong></td>
-                            <td><strong style="color: #e74c3c;">15.00 ر.ع</strong></td>
-                            <td>يتطلب موافقة خاصة</td>
-                        </tr>
-                        <tr>
-                            <td><span class="badge-delivery"><i class="bi bi-pin-map-fill"></i> الاستلام من المتجر</span></td>
-                            <td>💳 بطاقة ائتمان | 💰 نقد | 🏦 تحويل</td>
-                            <td><strong>فوري (24 ساعة)</strong></td>
-                            <td><strong style="color: #27ae60;">مجاني</strong></td>
-                            <td>الخيار الأسرع والأرخص</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
 </body>
 </html>
